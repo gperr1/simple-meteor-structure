@@ -9,8 +9,8 @@ Template.home.helpers({
     // }
 });
 
-Template.composition.events({
-    "click #menu-close #menu-toggle" : function(e) {
+Template.home.events({
+    "click #menu-close,#menu-toggle" : function(e) {
     	// event stuff there
     	e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
