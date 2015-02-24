@@ -1,0 +1,21 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+cfs:http-methods
+iron:router
+mizzao:bootstrap-3
+mrt:moment
+mrt:moment-timezone
+http
+cwohlman:bootboxjs
+accounts-google
+npvn:accounts-ui-bootstrap-3
+accounts-base
+natestrauser:select2
+zimme:select2-bootstrap3-css
+
+fortawesome:fontawesome
+chrismbeckett:toastr
