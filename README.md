@@ -16,8 +16,8 @@
 		- home/				<-- home template & controller. duplicate this dir to create a new "view"
 			- home.html
 			- home.js
-	- client.js <-- put global client stuff here
-	- routes.js <-- iron router file
+	- client.js 			<-- put global client stuff here
+	- routes.js 			<-- iron router file
 - lib/						<-- shared (client/ server) libs 
 	- collections.js 		<-- add collections declaration here
 - private/					<-- private stuff (server only and no access from the outside)
