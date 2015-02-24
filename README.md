@@ -24,6 +24,7 @@
 - public/					<-- public ressources (robots.txt,images,fonts,...)
 	- fonts/ 				
 	- images/
+	- robots.txt
 - server/
 	- lib/ 					<-- server libs here
 	- API.js
