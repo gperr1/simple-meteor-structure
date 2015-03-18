@@ -17,9 +17,9 @@ Template.home.events({
         return false;
     },
     "click a[href*=#]:not([href=#])" : function(e){
-    	if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
+    	if (location.pathname.replace(/^\//, '') == e.target.pathname.replace(/^\//, '') || location.hostname == e.target.hostname) {
+                var target = $(e.target.hash);
+                console.log("target="+target);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
                     $('html,body').animate({
@@ -30,3 +30,5 @@ Template.home.events({
             }
     },
 });
+
+
